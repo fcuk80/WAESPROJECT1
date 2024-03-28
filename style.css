@@ -1,0 +1,280 @@
+.flex-container 
+    {
+	display: flex;
+	background-color:bisque;
+	height: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    }
+
+  .flex-container > div 
+  {
+	background-color: bisque;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+	flex-basis: auto;
+	max-height: 600px;
+	max-width: 300px;
+	font-family: cursive;
+  }
+
+  .banner 
+{
+    color: white;
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+	border-radius: 5px;
+}
+
+header 
+{
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg") 
+}
+
+header > p
+{
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#open 
+{
+    padding-left: 100px; font-size: x-large;
+}
+
+h1
+{
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    color: white;
+    padding-top: 20px;
+}
+
+a 
+{
+    color: white;
+}
+
+body
+{
+    background-color: bisque;
+    margin-bottom: 70px;
+}
+
+p 
+{
+    text-transform: capitalize;
+}
+
+h1, h2 
+{
+    text-align: center;
+}
+
+nav 
+{
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+    text-align: center;
+    padding: 10px;
+}
+
+li 
+{
+    list-style: none;
+    text-transform: capitalize; 
+}
+
+img 
+{
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+#foodmenu 
+{
+    text-align: center;
+}
+
+#foodlist 
+{ 
+    width: 250px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+.hot-drinks 
+{
+	background-color: bisque;
+	padding-left: 100px;
+	font-size: 20px;
+	flex-basis: auto;
+
+	max-height: 600px;
+	max-width: 300px;
+	font-family: cursive;
+	display: flex;
+}
+
+.coffeelist 
+{ 
+    width: 250px;
+    height: 250px;
+    padding: 100px;
+    font-family: cursive;
+}
+
+.tealist 
+{ 
+    width: 250px;
+    height: 250px;
+    padding: 100px;
+    font-family: cursive;
+}
+
+.circle
+{ 
+    list-style: none;
+    padding : 15px;
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+    text-align: center; 
+    display: inline-table; 
+}
+
+#coke 
+{
+    background-image: url(https://www.nicepng.com/png/detail/963-9634958_coke-logo-coca-cola.png);
+    background-position: center;
+    background-size: 110%;
+    margin-left: auto;
+    color: transparent;
+}
+	
+#fanta 
+{
+    background-image: url(https://th.bing.com/th/id/OIP.T8cXZcCNNYeV9OD8OMsBXgHaHR?w=189&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-position: center;
+    background-size: 110%;
+    color: transparent;
+}
+
+#sprite 
+{
+    background-image:url(https://th.bing.com/th?id=OIP.5tNq6vNG8ZNEbEwjzre3_wHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 200%;
+    color: transparent;
+}
+
+#oj 
+{
+    background-image: url(https://th.bing.com/th?id=OIP.K7BHGggxvD8bdBbiqrUbngHaGG&w=275&h=226&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 150%;
+    color: transparent;
+}
+
+#apple 
+{
+    background-image: url(https://th.bing.com/th/id/OIP.AtsOWsLbJwW25YxqRFBr6wHaH_?rs=1&pid=ImgDetMain);
+    background-position: center;
+    background-size: 160%;
+    color: transparent;
+}
+
+#water 
+{
+    background-image: url(https://th.bing.com/th?id=OIP.kg8Vu0RyOTVmxM7bAhjIJQHaFP&w=297&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 210%;
+    color: transparent;
+}
+
+.sweet-box > div
+{
+  float: right;
+  border: 2px solid black;
+  flex-direction: row;
+  flex-basis: auto;
+}
+
+
+#dessertslist 
+{
+    background-color: bisque;
+	padding-left: 100px;
+	font-size: 20px;
+	flex-basis: auto;
+
+	max-height: 600px;
+	max-width: 300px;
+	font-family: cursive;
+	display: flex;
+}
+
+.directions 
+{
+    display: flex;
+}
+
+#maps 
+{
+    position: relative;
+    padding-left: 50px;
+    overflow-x:inherit;
+}
+
+fieldset 
+{
+	border: none;
+	margin-top: 20px;
+}
+
+footer > span 
+{
+	color: white;
+    font-weight: bold;
+
+}
+
+footer {
+	background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+	text-align: center;
+    width: 100%;
+	height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > a {
+	color: white;
+	font-size: 2rem;
+	padding-left: 10px;
+	
+}
+
+footer > p 
+{
+	color: white;
+    font-weight: bold;
+    font-size: larger;
+	padding-top: 10px;
+}
+
+.totop {
+	display: flex;
+	float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+
+}
+
+/*mobile 425px*/
